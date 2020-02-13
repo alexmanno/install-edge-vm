@@ -55,10 +55,10 @@ echo "Checking deps..."
 _check_deps >/dev/null 2>&1
 
 echo "Downloading Win10..."
-#_download >/dev/null 2>&1
+_download >/dev/null 2>&1
 
 echo "Extracting Win10..."
-#_extract >/dev/null 2>&1
+_extract >/dev/null 2>&1
 
 echo "Importing VM Win10 in VirtualBox..."
 _import_vm >/dev/null 2>&1
